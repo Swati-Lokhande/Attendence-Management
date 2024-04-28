@@ -1,0 +1,30 @@
+*{
+	padding: 0px;
+	margin: 0px;
+	box-sizing: border-box;
+}
+
+#table{
+width: 80%;
+height: 300px;
+margin-left: 10%;
+}
+tr:hover{
+
+	font-weight: bolder;
+	background-image: linear-gradient(to right,#f5e4ce,#f0ce9e);
+}
+.bgimg{
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	height: 600px;
+	width: 100%;
+	backdrop-filter: blur(5px);
+	opacity: 15px;
+
+}
+tr ,th{
+	border: 2px solid black;
+}
+
